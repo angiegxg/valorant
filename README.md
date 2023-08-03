@@ -2,11 +2,7 @@
 
 Valorant
 
-2023
-
-Primeros Pasos con
-
-React
+Primeros Pasos con React
 
 Angie Garcia
 
@@ -14,9 +10,9 @@ Angie Garcia
 
 <a name="br2"></a> 
 
-Introducción
+#Introducción
 
-Contexto
+##Contexto
 
 Este proyecto de React es una aplicación web que muestra información sobre los agentes del juego
 
@@ -30,11 +26,10 @@ específico.
 
 Es un proyecto sencillo para dar los primeros pasos con React, que he realizado con fines educativos.
 
-Requisitos de Funcionalidad
+##Requisitos de Funcionalidad
 
 Para este proyecto he tenido en cuenta los siguientes requisitos de funcionalidad:
 
-•
 
 **Mostrar la lista de agentes:** La aplicación debe obtener datos de la API "https://valorant-
 
@@ -42,15 +37,7 @@ api.com/v1/agents" al cargar y mostrar una lista de agentes en la página princi
 
 •
 
-**Filtrar por Rol:** La aplicación debe permitir al usuario filtrar la lista de agentes por su rol. Los
-
-roles disponibles son "Initiator", "Sentinel", "Duelist" y "Controller". Se debe proporcionar una
-
-opción "All Role" para mostrar todos los agentes sin filtrar por rol.
-
-•
-
-•
+**Filtrar por Rol:** La aplicación debe permitir al usuario filtrar la lista de agentes por su rol. Los roles disponibles son "Initiator", "Sentinel", "Duelist" y "Controller". Se debe proporcionar una opción "All Role" para mostrar todos los agentes sin filtrar por rol.
 
 **Búsqueda por Nombre:** La aplicación debe proporcionar una barra de búsqueda donde el
 
@@ -64,33 +51,15 @@ un mensaje de alerta indicando que el agente no se encontró.
 
 **Vista Detallada del Agente:** Al hacer clic en un agente de la lista, la aplicación debe mostrar una
 
-vista detallada con más información sobre ese agente específico. La vista detallada debe incluir
+vista detallada con más información sobre ese agente específico. La vista detallada debe incluir el nombre del agente, su imagen/avatar, y su rol.
 
-el nombre del agente, su imagen/avatar, y su rol.
+**Cerrar Agentes:** En la vista detallada del agente, debe haber un botón "x" para cerrar la vista detallada y volver a la lista de agentes.
 
-•
+**Estilo y Diseño:** La aplicación debe tener un diseño atractivo y amigable para el usuario. Se pueden utilizar gradientes de fondo en las tarjetas de los agentes para hacerlas más llamativas.
 
-•
+**Navegación:** La aplicación debe utilizar la biblioteca de enrutamiento "react-router-dom" para permitir la navegación entre la página principal y la vista detallada del agente.
 
-•
-
-**Cerrar Agentes:** En la vista detallada del agente, debe haber un botón "x" para cerrar la vista
-
-detallada y volver a la lista de agentes.
-
-**Estilo y Diseño:** La aplicación debe tener un diseño atractivo y amigable para el usuario. Se
-
-pueden utilizar gradientes de fondo en las tarjetas de los agentes para hacerlas más llamativas.
-
-**Navegación:** La aplicación debe utilizar la biblioteca de enrutamiento "react-router-dom" para
-
-permitir la navegación entre la página principal y la vista detallada del agente.
-
-**Nota:** Es importante asegurarse de que la API "https://valorant-api.com/v1/agents" esté accesible y
-
-proporcionando datos adecuados. Además, se recomienda agregar manejadores de errores para 
-
-manejar posibles fallos en la obtención de datos desde la API.
+**Nota:** Es importante asegurarse de que la API "https://valorant-api.com/v1/agents" esté accesible y proporcionando datos adecuados. Además, se recomienda agregar manejadores de errores para manejar posibles fallos en la obtención de datos desde la API.
 
 
 
@@ -98,41 +67,27 @@ manejar posibles fallos en la obtención de datos desde la API.
 
 <a name="br3"></a> 
 
-Instalación
+#Instalación
 
 Para probar este proyecto localmente, sigue los siguientes pasos:
 
 1\. Clona este repositorio en tu máquina local uꢀlizando el siguiente comando:
-
 git c[lone](https://github.com/angiegxg/valorant.git)[ ](https://github.com/angiegxg/valorant.git)<https://github.com/angiegxg/valorant.git>
 
-2\. Ve al directorio del proyecto
+2\. Ve al directorio del proyecto: cd valorant
 
-cd valorant
+3\. Instala las dependencias utilizando npm:npm install
 
-3\. Instala las dependencias utilizando npm:
-
-npm install
-
-4\. Inicia la aplicación
-
-npm start
+4\. Inicia la aplicación: npm start
 
 5\. Abre tu navegador web y navega a `http://localhost:3000`para ver la aplicación en acción.
 
-Uso
+#Uso
 
 Una vez que la aplicación esté en funcionamiento, podrás explorar la lista completa de agentes de Valorant.
 
 Podrás buscar agentes por nombre uꢀlizando la barra de búsqueda y ﬁltrar la lista por rol uꢀlizando el ﬁltro desplegable.
-![Texto Alternativo](public\Valorant1.png)
-
-
-
-<a name="br4"></a> 
-
 Haz clic en una tarjeta de agente para ver una vista detallada de la información del agente, incluida su
-
 imagen, rol, descripción y habilidades.
 
 
