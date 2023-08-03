@@ -1,6 +1,6 @@
 <a name="br1"></a> 
 
-Valorant
+# Valorant
 
 Primeros Pasos con React
 
@@ -10,9 +10,9 @@ Angie Garcia
 
 <a name="br2"></a> 
 
-#Introducción
+# Introducción
 
-##Contexto
+## Contexto
 
 Este proyecto de React es una aplicación web que muestra información sobre los agentes del juego
 
@@ -35,7 +35,6 @@ Para este proyecto he tenido en cuenta los siguientes requisitos de funcionalida
 
 api.com/v1/agents" al cargar y mostrar una lista de agentes en la página principal.
 
-•
 
 **Filtrar por Rol:** La aplicación debe permitir al usuario filtrar la lista de agentes por su rol. Los roles disponibles son "Initiator", "Sentinel", "Duelist" y "Controller". Se debe proporcionar una opción "All Role" para mostrar todos los agentes sin filtrar por rol.
 
@@ -67,7 +66,7 @@ vista detallada con más información sobre ese agente específico. La vista det
 
 <a name="br3"></a> 
 
-#Instalación
+# Instalación
 
 Para probar este proyecto localmente, sigue los siguientes pasos:
 
@@ -82,7 +81,7 @@ git c[lone](https://github.com/angiegxg/valorant.git)[ ](https://github.com/angi
 
 5\. Abre tu navegador web y navega a `http://localhost:3000`para ver la aplicación en acción.
 
-#Uso
+# Uso
 
 Una vez que la aplicación esté en funcionamiento, podrás explorar la lista completa de agentes de Valorant.
 
