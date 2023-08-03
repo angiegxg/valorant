@@ -14,14 +14,8 @@ Angie Garcia
 
 ## Contexto
 
-Este proyecto de React es una aplicación web que muestra información sobre los agentes del juego
-
-"Valorant". Los agentes son personajes jugables en el juego, y la aplicación muestra sus nombres, roles
-
-y avatares. Además, la aplicación permite filtrar los agentes por rol y buscar agentes por nombre. Al
-
-seleccionar un agente, la aplicación muestra una vista detallada con más información sobre ese agente
-
+Este proyecto de React es una aplicación web que muestra información sobre los agentes del juego 
+"Valorant". Los agentes son personajes jugables en el juego, y la aplicación muestra sus nombres, roles y avatares. Además, la aplicación permite filtrar los agentes por rol y buscar agentes por nombre. Al seleccionar un agente, la aplicación muestra una vista detallada con más información sobre ese agente
 específico.
 
 Es un proyecto sencillo para dar los primeros pasos con React, que he realizado con fines educativos.
@@ -29,7 +23,6 @@ Es un proyecto sencillo para dar los primeros pasos con React, que he realizado 
 ## Requisitos de Funcionalidad
 
 Para este proyecto he tenido en cuenta los siguientes requisitos de funcionalidad:
-
 
 **Mostrar la lista de agentes:** La aplicación debe obtener datos de la API "https://valorant-
 
