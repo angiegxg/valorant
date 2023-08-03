@@ -1,0 +1,72 @@
+/* Inicio fuentes____________________________________ */
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+@font-face {
+  font-family: 'valorant';
+  src: url("../../../Valorant.ttf");
+}
+:root {
+    --valorant1: #FD4556;
+    --valorant2: #BD3944;
+    --valorant3: #53212B;
+    --valorant4: #FFFBF5;
+    /* Color Theme Swatches in Hex */
+
+
+}
+
+h1,h2,h3, button{
+    font-family: 'valorant';
+    font-size: 2.5em;
+}
+
+p,input {
+  font-family: 'Rajdhani', sans-serif;
+    font-weight: 800;
+}
+
+/* Fin fuentes_________________________________________ */
+
+
+/* Inicio mini reset___________________________________ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+/* Fin mini reset______________________________________ */
+
+.background{
+    
+    
+  
+    /* -webkit-mask: url("./assent/circuitoValorant.png");
+    mask: url("./assent/circuitoValorant.png"); */
+    z-index: 0;
+    /* background:  url("./assent/wallpaperbetter.com_7680x4320.jpg") no-repeat center/cover; */
+    width: 100%;
+    height: auto;
+    
+    
+}
+
