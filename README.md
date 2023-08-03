@@ -62,7 +62,7 @@ git c[lone](https://github.com/angiegxg/valorant.git)[ ](https://github.com/angi
 Una vez que la aplicación esté en funcionamiento, podrás explorar la lista completa de agentes de Valorant.
 
 Podrás buscar agentes por nombre uꢀlizando la barra de búsqueda y ﬁltrar la lista por rol uꢀlizando el ﬁltro desplegable.
-![screenshot](public\Valorant1.png)
+![screenshot](https://github.com/angiegxg/valorant/blob/master/public/Valorant1.png)
 
 Haz clic en una tarjeta de agente para ver una vista detallada de la información del agente, incluida su
 imagen, rol, descripción y habilidades.
