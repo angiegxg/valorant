@@ -1,70 +1,139 @@
-# Getting Started with Create React App
+<a name="br1"></a> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Valorant
 
-## Available Scripts
+2023
 
-In the project directory, you can run:
+Primeros Pasos con
 
-### `npm start`
+React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Angie Garcia
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<a name="br2"></a> 
 
-### `npm run build`
+Introducción
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contexto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este proyecto de React es una aplicación web que muestra información sobre los agentes del juego
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+"Valorant". Los agentes son personajes jugables en el juego, y la aplicación muestra sus nombres, roles
 
-### `npm run eject`
+y avatares. Además, la aplicación permite filtrar los agentes por rol y buscar agentes por nombre. Al
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+seleccionar un agente, la aplicación muestra una vista detallada con más información sobre ese agente
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+específico.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Es un proyecto sencillo para dar los primeros pasos con React, que he realizado con fines educativos.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Requisitos de Funcionalidad
 
-## Learn More
+Para este proyecto he tenido en cuenta los siguientes requisitos de funcionalidad:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+•
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Mostrar la lista de agentes:** La aplicación debe obtener datos de la API "https://valorant-
 
-### Code Splitting
+api.com/v1/agents" al cargar y mostrar una lista de agentes en la página principal.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+•
 
-### Analyzing the Bundle Size
+**Filtrar por Rol:** La aplicación debe permitir al usuario filtrar la lista de agentes por su rol. Los
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+roles disponibles son "Initiator", "Sentinel", "Duelist" y "Controller". Se debe proporcionar una
 
-### Making a Progressive Web App
+opción "All Role" para mostrar todos los agentes sin filtrar por rol.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+•
 
-### Advanced Configuration
+•
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Búsqueda por Nombre:** La aplicación debe proporcionar una barra de búsqueda donde el
 
-### Deployment
+usuario pueda ingresar el nombre de un agente. Al presionar el botón de búsqueda, la lista de
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+agentes debe filtrarse y mostrar solo aquellos cuyos nombres coinciden (de forma parcial o
 
-### `npm run build` fails to minify
+completa) con el texto de búsqueda ingresado. Si no se encuentran resultados, se debe mostrar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+un mensaje de alerta indicando que el agente no se encontró.
+
+**Vista Detallada del Agente:** Al hacer clic en un agente de la lista, la aplicación debe mostrar una
+
+vista detallada con más información sobre ese agente específico. La vista detallada debe incluir
+
+el nombre del agente, su imagen/avatar, y su rol.
+
+•
+
+•
+
+•
+
+**Cerrar Agentes:** En la vista detallada del agente, debe haber un botón "x" para cerrar la vista
+
+detallada y volver a la lista de agentes.
+
+**Estilo y Diseño:** La aplicación debe tener un diseño atractivo y amigable para el usuario. Se
+
+pueden utilizar gradientes de fondo en las tarjetas de los agentes para hacerlas más llamativas.
+
+**Navegación:** La aplicación debe utilizar la biblioteca de enrutamiento "react-router-dom" para
+
+permitir la navegación entre la página principal y la vista detallada del agente.
+
+**Nota:** Es importante asegurarse de que la API "https://valorant-api.com/v1/agents" esté accesible y
+
+proporcionando datos adecuados. Además, se recomienda agregar manejadores de errores para 
+
+manejar posibles fallos en la obtención de datos desde la API.
+
+
+
+
+
+<a name="br3"></a> 
+
+Instalación
+
+Para probar este proyecto localmente, sigue los siguientes pasos:
+
+1\. Clona este repositorio en tu máquina local uꢀlizando el siguiente comando:
+
+git c[lone](https://github.com/angiegxg/valorant.git)[ ](https://github.com/angiegxg/valorant.git)<https://github.com/angiegxg/valorant.git>
+
+2\. Ve al directorio del proyecto
+
+cd valorant
+
+3\. Instala las dependencias utilizando npm:
+
+npm install
+
+4\. Inicia la aplicación
+
+npm start
+
+5\. Abre tu navegador web y navega a `http://localhost:3000`para ver la aplicación en acción.
+
+Uso
+
+Una vez que la aplicación esté en funcionamiento, podrás explorar la lista completa de agentes de Valorant.
+
+Podrás buscar agentes por nombre uꢀlizando la barra de búsqueda y ﬁltrar la lista por rol uꢀlizando el ﬁltro desplegable.
+![Texto Alternativo](public\Valorant1.png)
+
+
+
+<a name="br4"></a> 
+
+Haz clic en una tarjeta de agente para ver una vista detallada de la información del agente, incluida su
+
+imagen, rol, descripción y habilidades.
+
+
+
