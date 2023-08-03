@@ -68,4 +68,4 @@ Haz clic en una tarjeta de agente para ver una vista detallada de la informació
 imagen, rol, descripción y habilidades.
 
 
-
+![screenshot](https://github.com/angiegxg/valorant/blob/master/public/Valorant2.png)
