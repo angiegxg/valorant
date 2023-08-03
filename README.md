@@ -26,7 +26,7 @@ específico.
 
 Es un proyecto sencillo para dar los primeros pasos con React, que he realizado con fines educativos.
 
-##Requisitos de Funcionalidad
+## Requisitos de Funcionalidad
 
 Para este proyecto he tenido en cuenta los siguientes requisitos de funcionalidad:
 
