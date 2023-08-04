@@ -25,7 +25,7 @@ function Home() {
     };
 
     fetchData();
-  }, [uuid]);
+  }, []);
 
   // Función para filtrar la lista de agentes según el texto de búsqueda
   const searchHandler = (searchText) => {
