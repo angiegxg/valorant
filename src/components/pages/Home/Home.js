@@ -25,7 +25,7 @@ function Home() {
     };
 
     fetchData();
-  }, []);
+  }, []); // Agregar las dependencias vacías para que se ejecute solo una vez al cargar el componente
 
   // Función para filtrar la lista de agentes según el texto de búsqueda
   const searchHandler = (searchText) => {
