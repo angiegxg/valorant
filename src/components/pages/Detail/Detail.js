@@ -21,7 +21,7 @@ const navigate= useNavigate()
       }
     }
     fetchData();
-  }, []);
+  }, [uuid]);
 
   
 
